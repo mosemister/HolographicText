@@ -1,0 +1,30 @@
+{
+  "loader": {
+    "name": "java_plain",
+    "version": "1.0"
+  },
+  "license": "MIT",
+  "plugins": [
+    {
+      "id": "holographic_text",
+      "name": "Holographic Text",
+      "version": "${version}",
+      "entrypoint": "org.mose.holographictext.HolographicText",
+      "description": "",
+      "branding": {},
+      "links": {
+        "homepage": "https://spongepowered.org"
+      },
+      "contributors": [
+      ],
+      "dependencies": [
+        {
+          "id": "spongeapi",
+          "version": "8.0.0",
+          "load-order": "after",
+          "optional": false
+        }
+      ]
+    }
+  ]
+}
